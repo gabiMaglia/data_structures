@@ -1,4 +1,4 @@
-// ArrayList
+// LinkedList
 
 // Esta estructura de datos se utiliza cuando es necesario que un elemento conozca al siguiente, en este caso cada elemento trendra la informacion necesara para llegar al siguiente
 
@@ -21,11 +21,11 @@ class LinkedList {
     this.tail = null;
   }
   //
-  //   luego agregamos un metodo para agregar elementos al cual le pasaremos un valor  y
-  //   se encargara de crear un nuevo nodo con el valor que le pasamos
-  //   chekeamos si todavia no existe cabeza en la lista, ponemos este nodo en la cabeza de la
+  //   luego agregamos un metodo para agregar elementos al cual le pasaremos un valor
+  //   con el que creara un nuevo nodo,
+  //   chekeamos si todavia no existe cabeza en la lista, asignamos el nodo como cabeza de la
   //   misma, caso contrario vamos al ultimo elemento el cual tiene la posibilidad
-  //   de asignar la direccion de un nuevo valor (.next) y aqui agregaremos el nuevo nodo
+  //   de asignar la direccion de un nuevo valor (.next) y aqui vinculamos el nuevo nodo,
   //   sea como sea al final de la comprobacion el nuevo nodo sera el tail de la lista
 
   //  Para que se entienda mejor, tail sera el ultimo elemento y el head el primero, cada vez que se agrega un nuevo elemento
